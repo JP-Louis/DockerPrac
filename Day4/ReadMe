@@ -7,7 +7,6 @@
 4. What command to use the share of CPU cycles for containers?
   -docker run --cpus="<CPU amount>" image
   -docker run --cpu-shares=<CPU Amount> image
-5. Provide a screen shot of running a Ubuntu container
-which copies a simple shell script(echo "hello world") from host and executes inside the container.
+5. Provide a screen shot of running a Ubuntu container which copies a simple shell script(echo "hello world") from host and executes inside the container.
 [Use docker volume bind]
   -https://github.com/JP-Louis/DockerPrac/tree/main/Day4
