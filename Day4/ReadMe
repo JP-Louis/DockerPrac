@@ -1,0 +1,13 @@
+1. Create a docker account and push an image
+  -https://hub.docker.com/repository/docker/jpierrel/pracpush
+2. What location are the files related to the docker containers and images stored?
+  -/var/lib/docker folder
+3. What is cpu share in container and what is default?
+  -All containers within the host share the same CPU and by default each container's access is unlimited
+4. What command to use the share of CPU cycles for containers?
+  -docker run --cpus="<CPU amount>" image
+  -docker run --cpu-shares=<CPU Amount> image
+5. Provide a screen shot of running a Ubuntu container
+which copies a simple shell script(echo "hello world") from host and executes inside the container.
+[Use docker volume bind]
+  -https://github.com/JP-Louis/DockerPrac/tree/main/Day4
